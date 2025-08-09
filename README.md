@@ -32,27 +32,32 @@ pip install -r requirements.txt
 
 ## 🔑 Setup
 
-1. **Clone this repository**:
+
+## 🚀 Installation & Usage
+
+1. **Clone this repository**  
 
 ```bash
 git clone https://github.com/muzi5622/AI-Enhanced-Cybersecurity-News-Scraper/
 cd AI-Enhanced-Cybersecurity-News-Scraper
-```
+````
 
 2. **Set your Groq API key**
-   Open the Python file and replace:
+
+   * Get your API key from: [https://console.groq.com/keys](https://console.groq.com/keys)
+   * Open the Python file (`main.py`) and replace the placeholder with your API key:
 
 ```python
 API_KEY = "your_groq_api_key_here"
 ```
 
-3. **Run the script**:
+3. **Run the script**
 
 ```bash
 python main.py
 ```
 
----
+
 
 ## 🖥️ Usage
 

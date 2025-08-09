@@ -7,8 +7,8 @@ import webbrowser
 from flask import Flask, render_template_string
 
 # === Config ===
+API_KEY = "your_groq_api_key_here"
 API_URL = "https://api.groq.com/openai/v1/chat/completions"
-API_KEY = "Enter_Your_API_Key"
 MODEL_ID = "llama-3.3-70b-versatile"
 MAX_ARTICLES = 5
 MAX_WORKERS = 5  # Parallel threads for AI requests
